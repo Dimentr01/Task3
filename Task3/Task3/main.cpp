@@ -5,6 +5,7 @@
 #include<cstdlib>
 
 int lifes = 0;
+int lifes1 = 5;
 
 int swealth = 0;
 
@@ -66,6 +67,7 @@ void Add()
 	Robber[lifes + 1].wealth = 500 * Robber[lifes + 1].horses + 100 * Robber[lifes + 1].sabers + 50 * Robber[lifes + 1].rubies + 10 * Robber[lifes + 1].necklaces - 200 * Robber[lifes + 1].wifes + Robber[lifes + 1].money;
 	swealth += Robber[lifes + 1].wealth;
 	lifes += 1;
+	lifes1 = lifes1 + 1;
 	std::cout << "Вы добавили его\n" << std::endl;
 }
 
@@ -91,6 +93,14 @@ void Kill(std::string a)
 			break;
 		}
 	Robber[d].life = 0;
+	Robber[d].horses = 0;
+	Robber[d].sabers = 0;
+	Robber[d].rubies = 0;
+	Robber[d].necklaces = 0;
+	Robber[d].wifes = 0;
+	Robber[d].money = 0;
+	Robber[d].wealth = 0;
+	lifes1 = lifes1 - 1;
 	std::cout << "Вы убили его" << std::endl << std::endl;
 }
 
@@ -189,7 +199,24 @@ void Look_at_all_lifes()
 
 void look_at_all_wealth()
 {
-	std::cout << "Имущество банды=" << swealth << std::endl << std::endl;
+	std::cout << "Всего живых=" << lifes1 << std::endl;
+	std::cout << "Общее имущество банды=" << swealth << std::endl;
+	int horses=0, sabers=0, necklaces=0, rubies=0, money=0,wifes=0;
+	for (int i=0;i<lifes;i++)
+	{
+		horses = horses + Robber[i].horses;
+		sabers = sabers + Robber[i].sabers;
+		rubies = rubies + Robber[i].rubies;
+		necklaces = necklaces + Robber[i].necklaces;
+		money = money + Robber[i].money;
+		wifes = wifes + Robber[i].wifes;
+	}
+	std::cout << "Всего лошадей=" << horses << std::endl;
+	std::cout << "Всего рубинов=" << rubies << std::endl;
+	std::cout << "Всего ожерелий=" << necklaces << std::endl;
+	std::cout << "Всего сабель=" << sabers << std::endl;
+	std::cout << "Всего монет=" << money << std::endl;
+	std::cout << "Всего жён=" << wifes << std::endl << std::endl;
 }
 
 void look_at_all()
