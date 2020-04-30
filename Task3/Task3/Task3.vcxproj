@@ -144,13 +144,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Add.cpp" />
+    <ClCompile Include="begining.cpp" />
+    <ClCompile Include="draw.cpp" />
+    <ClCompile Include="Equal.cpp" />
+    <ClCompile Include="Find.cpp" />
+    <ClCompile Include="Kill.cpp" />
+    <ClCompile Include="Loof_at_all.cpp" />
+    <ClCompile Include="Look_at_all_lifes.cpp" />
+    <ClCompile Include="Look_at_all_wealth.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
     <ClCompile Include="PieChart.cpp" />
+    <ClCompile Include="Richest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SFML-2.5.1\include\SFML\Graphics\Font.hpp" />
+    <ClInclude Include="Begining.h" />
     <ClInclude Include="Common.hpp" />
+    <ClInclude Include="Add.h" />
+    <ClInclude Include="draw.h" />
+    <ClInclude Include="Equal.h" />
+    <ClInclude Include="Find.h" />
+    <ClInclude Include="Kill.h" />
+    <ClInclude Include="Look_at_all.h" />
+    <ClInclude Include="Look_at_all_lifes.h" />
+    <ClInclude Include="Look_at_all_wealth.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="PieChart.hpp" />
+    <ClInclude Include="Richest.h" />
+    <ClInclude Include="Robber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

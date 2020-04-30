@@ -21,6 +21,39 @@
     <ClCompile Include="PieChart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Add.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="begining.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Richest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Find.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Look_at_all_lifes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Look_at_all_wealth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loof_at_all.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.hpp">
@@ -31,6 +64,42 @@
     </ClInclude>
     <ClInclude Include="..\SFML-2.5.1\include\SFML\Graphics\Font.hpp">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Add.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Robber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Begining.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Equal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Richest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Find.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Look_at_all_lifes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Look_at_all_wealth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Look_at_all.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
