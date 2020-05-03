@@ -21,7 +21,7 @@ void Add(int &lifes,int &lifes1, robbers Robber[], int &swealth )
 	std::cin >> Robber[lifes + 1].money;
 	Robber[lifes + 1].wealth = 500 * Robber[lifes + 1].horses + 100 * Robber[lifes + 1].sabers + 50 * Robber[lifes + 1].rubies + 10 * Robber[lifes + 1].necklaces - 200 * Robber[lifes + 1].wifes + Robber[lifes + 1].money;
 	swealth += Robber[lifes + 1].wealth;
-	lifes += 1;
+	lifes =lifes+ 1;
 	lifes1 = lifes1 + 1;
 	std::cout << "Вы добавили его\n" << std::endl;
 }

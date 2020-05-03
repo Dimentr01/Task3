@@ -31,6 +31,7 @@ void menu(int &lifes1, int &lifes, int &swealth, robbers Robber[])
 		std::cin >> v;
 		if (Equal(v, "1") == 1)
 		{
+			std::cout << "Enter the name, who kills\n";
 			std::cin >> name;
 			Kill(name, lifes1, swealth, Robber);
 		}

@@ -5,14 +5,17 @@
 
 void draw(robbers Robber[], int& lifes, int& swealth)
 {
-			float a1, a2, a3, a4, a5, b, h1, h2, h3, h4, h5,q1=0,q2=0,q3=0,q4=0,q5=0,g=0;
-			for (int i = 0; i < lifes; i++)
+			float a1=0, a2=0, a3=0, a4=0, a5=0, b=0, h1=0, h2=0, h3=0, h4=0, h5=0,q1=0,q2=0,q3=0,q4=0,q5=0,g=0;
+			for (int i = 0; i < lifes+1; i++)
 			{
-				q1 = Robber[i].horses + q1; g = g + Robber[i].wifes;
-				q2 = q2+Robber[i].sabers;
-				q3 = q3+ Robber[i].rubies;
-				q4 = q4+ Robber[i].necklaces;
-				q5 = q5+Robber[i].money;
+				if (Robber[i].life == 1)
+				{
+					q1 = Robber[i].horses + q1; g = g + Robber[i].wifes;
+					q2 = q2 + Robber[i].sabers;
+					q3 = q3 + Robber[i].rubies;
+					q4 = q4 + Robber[i].necklaces;
+					q5 = q5 + Robber[i].money;
+				}
 			}
 			a1 = 500 * q1; b = swealth + 200 * g;
 			a2 = 100 * q2;
