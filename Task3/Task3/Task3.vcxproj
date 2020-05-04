@@ -152,7 +152,6 @@
     <ClCompile Include="Kill.cpp" />
     <ClCompile Include="Loof_at_all.cpp" />
     <ClCompile Include="Look_at_all_lifes.cpp" />
-    <ClCompile Include="Look_at_all_wealth.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="PieChart.cpp" />
@@ -169,7 +168,6 @@
     <ClInclude Include="Kill.h" />
     <ClInclude Include="Look_at_all.h" />
     <ClInclude Include="Look_at_all_lifes.h" />
-    <ClInclude Include="Look_at_all_wealth.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="PieChart.hpp" />
     <ClInclude Include="Richest.h" />

@@ -42,9 +42,6 @@
     <ClCompile Include="Look_at_all_lifes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Look_at_all_wealth.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Loof_at_all.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -87,9 +84,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Look_at_all_lifes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Look_at_all_wealth.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Look_at_all.h">

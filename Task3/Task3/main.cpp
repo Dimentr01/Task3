@@ -3,7 +3,7 @@
 #include "menu.h"
 #include <iostream>
 
-int lifes = 0;
+int lifes = 5;
 int lifes1 = 5;
 int swealth = 0;
 

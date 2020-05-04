@@ -37,4 +37,5 @@ void Find(robbers Robber[], int& lifes)
 		std::cout << "Вы нашли его" << std::endl << std::endl;
 	else
 		std::cout << "Вы не нашли его" << std::endl << std::endl;
+	std::cout << lifes;
 }

@@ -16,7 +16,6 @@ void begining(int &swealth,int &lifes, robbers Robber[])
 		Robber[i].money = rand() % 2000;
 		Robber[i].wealth = 500 * Robber[i].horses + 100 * Robber[i].sabers + 50 * Robber[i].rubies + 10 * Robber[i].necklaces - 200 * Robber[i].wifes + Robber[i].money;
 		swealth += Robber[i].wealth;
-		lifes += 1;
 	}
 	std::cout << "5 персон загружены" << std::endl;
 }
